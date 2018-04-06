@@ -13,6 +13,7 @@ public class StudentTest {
 	@Test
 	public void testSayHello()
 	{
+		System.out.println("hello");
 		Student stu = new Student();
 		String str = stu.sayHello();
 		assertEquals("HelloWorld",str);
